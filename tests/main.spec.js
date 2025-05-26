@@ -40,12 +40,12 @@ test.describe("HTML ve CSS Görevleri", () => {
   });
 
   test("style.css dosyası entegre edildi mi (örnek stil uygulandı mı)?", async () => {
-    const body = await page.$("body");
-    const bgColor = await page.evaluate(
-      (el) => getComputedStyle(el).backgroundColor,
-      body,
+    const html = await page.$("html");
+    const color = await page.evaluate(
+      (el) => getComputedStyle(el).color,
+      html,
     );
-    expect(bgColor).toBe("rgb(231, 153, 71)");
+    expect(color).toBe("rgb(8, 8, 8)");
   });
 
   test("sayfa başlığı doğru mu?", async () => {
