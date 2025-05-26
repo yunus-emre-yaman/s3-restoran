@@ -1,0 +1,42 @@
+/* body elemanının arkaplan rengini #e79947, margin değerini 0 yapın. */
+
+
+/* h1 için yazı karakteri büyüklüğünü 60px yapın ve yazıyı ortalayın */
+
+
+/*
+  nav etiketine verdiğin mainMenu classını oluştur ve şunları sağla
+  - menü için oluşturduğun linkler ortalansın
+  - iç boşluk değeri 10px olsun
+  - yazı büyüklüğü 20px
+*/
+
+
+/*
+  Sayfadaki tüm paragraflar için;
+    - yazı büyüklüğünü 15px
+    - yazı karakterini 'Arial'
+    - iç boşlukları 10px
+    - satır yüksekliğini 22px
+    - dış boşluğu 0px yapın
+*/
+
+
+/* banner classına sahip elemanların kenarlarını 10px yuvarlatın ve genişliğini 750px yapın */
+
+/* 
+  iletişim bölümündeki bilgiler için sıralı olmayan bir liste oluşturdun. Şimdi ona şu stilleri uygulayın:
+    - üst alt dış boşluğu 0px, sol sağ dış boşluğu 10px olsun
+    - satır yüksekliği 24px olsun
+*/
+
+
+.container {
+  /*
+    Bu class için alttaki stil kurallarını ayarlayın;
+    - genişliği 750px
+    - margin değeri '60px auto 30px'
+    - arkaplan rengi beyaz
+    - padding değeri 50px olsun
+  */
+}

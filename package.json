@@ -1,0 +1,21 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "playwright test",
+    "c2w": "nodemon --watch index.html --watch style.css --watch tests --ext html,css,js --exec 'npx playwright test'"
+  },
+  "dependencies": {
+    "vite": "^5.0.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "nodemon": "^3.1.10",
+    "playwright": "^1.52.0"
+  }
+}
