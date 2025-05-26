@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html lang="tr">
   <head>
-    <!-- Karakter setini düzenleyen meta tagini ekleyin -->
-    <!-- style.css dosyasını ekleyin -->
-    <!-- Sayfa adınının browser tabında görünmesi için gerekli etiketi ekleyin (Nefis Lezzet Restoranı) -->
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nefis Lezzet Restoranı</title>
   </head>
 
   <body>
-    <!-- main elemanına container classını ekleyin. -->
-    <main>
-      <!-- Restoran adını uygun html tagi içinde kullanın. -->
-      Nefis Lezzet Restoranı
+    <main class="container">
+      <h1>Nefis Lezzet Restoranı</h1>
 
-      <!-- nav etiketine mainMenu classını ekle -->
-      <nav>
-        <!-- Bu elemanların her biri link haline gelmeli. (href değeri olarak # verebilirsin.) -->
-        Ana Sayfa - Hakkımızda - Menümüz - Galeri - İletişim
+      <nav class="mainMenu">
+        <a href="#">Ana Sayfa</a> -
+        <a href="#">Hakkımızda</a> -
+        <a href="#">Menümüz</a> -
+        <a href="#">Galeri</a> -
+        <a href="#">İletişim</a>
       </nav>
 
-      <!-- Buraya images klasörü altındaki banner.png görselini ekle. -->
+      <img src="images/banner.png" alt="Nefis Lezzet Banner" />
 
-      <!-- Hakkımızda: Alttaki içerikleri alt başlık ve açıklama olacak şekilde uygun etiketleri kullanarak sarın. -->
-      Hakkımızda
-      <!-- -->
-      Nefis Lezzet, 1985 yılından bu yana İstanbul'un kalbinde, geleneksel Türk
-      mutfağının en seçkin lezzetlerini modern dokunuşlarla harmanlayarak
-      misafirlerine sunmaktadır. Ailece işlettiğimiz restoranımızda, taze ve
-      kaliteli malzemelerle hazırlanan yemeklerimiz, sıcak atmosferimiz ve güler
-      yüzlü hizmetimizle unutulmaz anlar yaşatmayı hedefliyoruz.
+      <section>
+        <h2>Hakkımızda</h2>
+        <p>
+          Nefis Lezzet, 1985 yılından bu yana İstanbul'un kalbinde, geleneksel Türk
+          mutfağının en seçkin lezzetlerini modern dokunuşlarla harmanlayarak
+          misafirlerine sunmaktadır. Ailece işlettiğimiz restoranımızda, taze ve
+          kaliteli malzemelerle hazırlanan yemeklerimiz, sıcak atmosferimiz ve güler
+          yüzlü hizmetimizle unutulmaz anlar yaşatmayı hedefliyoruz.
+        </p>
+      </section>
 
-      <!-- Menümüz: Alttaki içerikleri alt başlık ve açıklama olacak şekilde uygun etiketleri kullanarak sarın. -->
-      Menümüz
-      <!-- -->
-      Mutfağımızda Türk mutfağının klasik lezzetlerinden modern füzyon yemeklere
-      kadar geniş bir yelpaze bulunmaktadır. Özenle seçilmiş et çeşitleri, taze
-      deniz ürünleri, mevsim sebzeleri ve geleneksel baharatlarımızla hazırlanan
-      yemeklerimiz, damak zevkinizi tatmin edecektir. Vejeteryan ve vegan
-      seçeneklerimiz de mevcuttur. Ayrıca özel günleriniz için hazırlanan set
-      menülerimiz ve catering hizmetimizle özel davetlerinizi unutulmaz
-      kılabiliriz.
+      <section>
+        <h2>Menümüz</h2>
+        <p>
+          Mutfağımızda Türk mutfağının klasik lezzetlerinden modern füzyon yemeklere
+          kadar geniş bir yelpaze bulunmaktadır. Özenle seçilmiş et çeşitleri, taze
+          deniz ürünleri, mevsim sebzeleri ve geleneksel baharatlarımızla hazırlanan
+          yemeklerimiz, damak zevkinizi tatmin edecektir. Vejeteryan ve vegan
+          seçeneklerimiz de mevcuttur. Ayrıca özel günleriniz için hazırlanan set
+          menülerimiz ve catering hizmetimizle özel davetlerinizi unutulmaz
+          kılabiliriz.
+        </p>
+      </section>
 
-      <!-- Galeri: Alttaki içerikleri alt başlık ve açıklama olacak şekilde uygun etiketleri kullanarak sarın. -->
-      Galeri
-      <!-- -->
-      Restoranımızın sıcak ve samimi atmosferini, özenle dekore edilmiş
-      salonlarımızı ve şef ekibimizin maharetli ellerinden çıkan sanat
-      eserlerini görebileceğiniz galeri bölümümüzde sizleri bekliyor. Modern
-      tasarım anlayışı ile geleneksel Türk motiflerinin buluştuğu mekanımızda,
-      ailece ya da arkadaşlarınızla keyifli vakitler geçirebilirsiniz. Açık
-      teras alanımız ve özel etkinlik salonumuzla her türlü organizasyonunuza ev
-      sahipliği yapmaktan mutluluk duyarız.
+      <section>
+        <h2>Galeri</h2>
+        <p>
+          Restoranımızın sıcak ve samimi atmosferini, özenle dekore edilmiş
+          salonlarımızı ve şef ekibimizin maharetli ellerinden çıkan sanat
+          eserlerini görebileceğiniz galeri bölümümüzde sizleri bekliyor. Modern
+          tasarım anlayışı ile geleneksel Türk motiflerinin buluştuğu mekanımızda,
+          ailece ya da arkadaşlarınızla keyifli vakitler geçirebilirsiniz. Açık
+          teras alanımız ve özel etkinlik salonumuzla her türlü organizasyonunuza ev
+          sahipliği yapmaktan mutluluk duyarız.
+        </p>
+      </section>
 
-      <!-- İletişim: Alttaki içerikleri alt başlık ve açıklama olacak şekilde uygun etiketleri kullanarak sarın. -->
-      İletişim
-      <!-- Bu bölüm sırasız bir liste olmalı. -->
-      Adres: Beşiktaş Mahallesi, Nispetiye Caddesi No: 47/A 34340 Beşiktaş/İstanbul
-      Instagram: @nefislezzetrestoran Facebook: Nefis Lezzet Restaurant Twitter:
-      @nefislezzet
-
+      <section>
+        <h2>İletişim</h2>
+        <ul>
+          <li>Adres: Beşiktaş Mahallesi, Nispetiye Caddesi No: 47/A 34340 Beşiktaş/İstanbul</li>
+          <li>Instagram: @nefislezzetrestoran</li>
+          <li>Facebook: Nefis Lezzet Restaurant</li>
+          <li>Twitter: @nefislezzet</li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
