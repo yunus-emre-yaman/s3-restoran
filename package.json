@@ -8,9 +8,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "playwright test",
-    "c2w": "nodemon --watch index.html --watch style.css --watch tests --ext html,css,js --exec 'npx playwright test'"
+    "c2w": "nodemon --watch index.html --watch style.css --watch tests --ext html,css,js --exec \"npx playwright test\""
   },
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "vite": "^5.0.4"
   },
   "devDependencies": {
